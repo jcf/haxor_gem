@@ -5,7 +5,7 @@ require 'rake/rdoctask'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
-    s.name = "open_gem"
+    s.name = "haxor_gem"
     s.summary = "Haxor through gem"
     s.description = <<-DESC
       Haxor through gem
