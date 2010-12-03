@@ -1,5 +1,4 @@
-# OpenCommand will open a gem's source path
-class Gem::Commands::Haxor < Gem::Command
+class Gem::Commands::HaxorCommand < Gem::Command
   include Gem::VersionOption
 
   def initialize
