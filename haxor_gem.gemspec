@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
     "README.markdown",
     "Rakefile",
     "VERSION.yml",
-    "lib/rubygems/commands/open_command.rb",
+    "lib/rubygems/commands/haxor_command.rb",
     "lib/rubygems_plugin.rb"
   ]
   s.homepage = %q{http://github.com/jcf/haxor_gem}
