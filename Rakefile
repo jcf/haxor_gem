@@ -7,9 +7,7 @@ begin
   Jeweler::Tasks.new do |s|
     s.name = "haxor_gem"
     s.summary = "Haxor through gem"
-    s.description = <<-DESC
-      Haxor through gem
-    DESC
+    s.description = "Haxor through gem"
     s.email = "james@logi.cl"
     s.homepage = "http://github.com/jcf/haxor_gem"
     s.rubyforge_project = "haxor_gem"
