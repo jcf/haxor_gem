@@ -15,6 +15,7 @@ begin
     s.has_rdoc = false
     s.files = FileList["[A-Z]*", "{bin,lib,test}/**/*"]
   end
+  Jeweler::RubygemsDotOrgTasks.new
 
 rescue LoadError
   puts "Jeweler not available. Install it for jeweler-related tasks with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
