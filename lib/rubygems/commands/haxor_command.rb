@@ -8,6 +8,10 @@ class Gem::Commands::HaxorCommand < Gem::Command
       :latest =>   false
   end
 
+  def arguments
+    ""
+  end
+
   def execute
     exec '/bin/zsh'
   end
